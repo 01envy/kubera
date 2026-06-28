@@ -1,0 +1,497 @@
+/* Sombra sutil debajo del menú para separarlo de la imagen */
+.navbar {
+    padding: 15px 0;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.menu-espaciado .nav-item {
+    margin: 0 45px; 
+}
+
+/* Estilos de las letras del menú */
+.navbar-nav .nav-link {
+    color: #4a4a4a !important; 
+    font-weight: 600;
+    padding: 5px 0;
+    margin: 0 15px;
+    position: relative;
+}
+
+
+.navbar-nav .nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 3px;
+    background: #55a828; 
+    transition: width 0.3s ease;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+
+.navbar-nav .nav-link:hover::after,
+.navbar-nav .nav-link.active-link::after {
+    width: 100%;
+}
+
+.hero-section {
+    position: relative;
+    height: 80vh;
+    min-height: 500px;
+    background-color: #e9ecef; 
+}
+
+/* Ajuste de la foto de fondo */
+.hero-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    filter: brightness(0.8); 
+}
+
+
+.hero-text-container {
+    position: absolute;
+    top: 50%;
+    left: 10%; 
+    transform: translateY(-50%);
+    z-index: 10;
+    max-width: 800px;
+}
+
+
+.hero-text-container {
+    position: absolute;
+    top: 50%;
+    left: 10%; 
+    transform: translateY(-50%);
+    z-index: 20; 
+    max-width: 800px;
+    pointer-events: none; 
+}
+
+/* Sombra profunda para el título */
+.hero-text-container h1 {
+    color: white;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 1.2;
+    
+    text-shadow: 
+        0px 4px 15px rgba(0, 0, 0, 0.7), 
+        0px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+
+
+@media (max-width: 768px) {
+    .hero-text-container h1 {
+        font-size: 2.2rem;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .hero-text-container h1 {
+        font-size: 2.2rem;
+    }
+}
+
+.brand-text {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.1;
+    color: #1a1a1a; 
+}
+
+.brand-title {
+    font-weight: 700; 
+    font-size: 1.8rem;
+    text-transform: uppercase; 
+    letter-spacing: -0.5px; 
+}
+
+.brand-subtitle {
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: uppercase; 
+    letter-spacing: 5.5px; 
+    color: #666; 
+    display: block;
+    margin-top: -2px;
+}
+
+
+.navbar {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05); 
+}
+
+.navbar-nav .nav-link {
+    color: #111 !important; 
+    font-weight: 500;
+    padding: 5px 0;
+    position: relative;
+}
+
+
+
+.dropdown-toggle::after {
+    display: none !important;
+}
+
+
+.icono-flecha {
+    width: 14px; 
+    margin-left: 8px; 
+    transition: transform 0.3s ease; 
+}
+
+
+.nav-link.custom-dropdown[aria-expanded="true"] .icono-flecha {
+    transform: rotate(180deg);
+}
+
+/* --- ¿QUIÉNES SOMOS? --- */
+
+.imagen-quienes-somos-wrapper img {
+    max-height: 400px;
+    width: 100%;
+    object-fit: cover; /* Recorta la imagen elegantemente sin deformarla */
+}
+.text-verde {
+    color: #55a828 !important;
+}
+
+
+.titulo-linea-verde {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 65px;
+    height: 3px;
+    background-color: #55a828;
+}
+
+.tarjeta-quienes-somos {
+    border-top: 4px solid #55a828; 
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.tarjeta-quienes-somos:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* --- SCROLL --- */
+
+.animar-scroll {
+    opacity: 0;
+    transform: translateY(40px);
+    transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+}
+
+
+.animar-scroll.visible {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.delay-1 { transition-delay: 0.2s; }
+.delay-2 { transition-delay: 0.4s; }
+
+/* --- SERVICIOS --- */
+
+.card-servicio {
+    border: 1px solid #f2f2f2; 
+    border-radius: 2px; 
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    display: flex;
+    flex-direction: column; 
+}
+
+
+.card-servicio:hover {
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08) !important;
+    transform: translateY(-3px);
+}
+
+
+.icono-flotante {
+    position: absolute;
+    top: -20px;
+    left: 20px; 
+    width: 60px;
+    height: 60px;
+    background-color: #55a828;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15); 
+}
+
+
+.icono-flotante img {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+   
+    filter: brightness(0) invert(1); 
+}
+
+
+.titulo-servicio {
+    color: #245076; 
+    font-size: 1.1rem;
+    line-height: 1.4;
+}
+
+
+.link-ver-mas {
+    color: #254a34; 
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.link-ver-mas:hover {
+    color: #55a828;
+    text-decoration: underline;
+}
+
+
+
+/* --- (METODOLOGÍA) --- */
+.numero-paso {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    font-size: 3.5rem; 
+    color: #16181a; 
+    opacity: 0.8;
+    line-height: 1;
+}
+
+/* --- ESTILOS MÉTODO EN CARRUSEL --- */
+
+.card-metodologia-carrusel {
+    max-width: 750px; 
+    height: 380px;
+    border: none;
+    border-top: 5px solid #55a828; 
+    border-radius: 8px;
+    background-color: #ffffff;
+}
+
+
+.posicion-indicadores {
+    bottom: -10px;
+}
+
+
+@media (max-width: 768px) {
+    .boton-carrusel-ajuste {
+        width: 10%;
+    }
+    .card-metodologia-carrusel {
+        min-height: 420px; 
+        margin-left: 35px;  
+        margin-right: 35px;
+    }
+}
+
+
+
+
+
+/* --- ESTILOS DEL FOOTER --- */
+
+.footer-corporativo {
+   
+    background-color: #3e7122; 
+    color: #ffffff;
+}
+
+
+.brand-text-footer {
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.1;
+    color: #ffffff;
+}
+
+.brand-title-footer {
+    font-weight: 700;
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    letter-spacing: -0.5px;
+}
+
+.brand-subtitle-footer {
+    font-weight: 300;
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 5.5px;
+    
+    color: rgba(255, 255, 255, 0.7); 
+    display: block;
+    margin-top: -2px;
+}
+
+
+.footer-texto {
+   
+    color: rgba(255, 255, 255, 0.85); 
+}
+
+/* Enlaces del Footer */
+.footer-link {
+    color: rgba(255, 255, 255, 0.85);
+    text-decoration: none;
+    transition: color 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+
+
+.footer-link:hover {
+    color: #ffffff;
+    transform: translateX(3px); 
+}
+
+
+.footer-separador {
+    border-color: rgba(255, 255, 255, 0.2); 
+}
+
+
+
+/* --- SERVICIOS --- */
+
+.lista-servicios li {
+    position: relative;
+    padding-left: 1.5rem;
+    margin-bottom: 0.8rem;
+    line-height: 1.6;
+}
+
+
+.lista-servicios li::before {
+    content: "■";
+    position: absolute;
+    left: 0;
+    color: #55a828; 
+    font-size: 0.6rem; 
+    top: 6px;
+}
+
+
+@media (min-width: 992px) {
+    .navbar-nav .dropdown:hover .dropdown-menu {
+        display: block;
+        margin-top: 0;
+        margin-top: 7px;
+    }
+    .dropdown-menu::before {
+        content: '';
+        position: absolute;
+        top: -15px;
+        left: 0;
+        width: 100%;
+        height: 15px;
+        background-color: transparent;
+    }
+}
+
+.dropdown-menu {
+    border-top: 3px solid #55a828 !important; 
+    border-radius: 4px;
+}
+
+.dropdown-item {
+    font-size: 0.9rem;
+    color: #4a4a4a;
+    padding: 10px 20px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.dropdown-item:hover {
+    background-color: #f8f9fa;
+    color: #55a828;
+}
+
+
+section [id] {
+    scroll-margin-top: 140px; 
+}
+
+/* --- (Estilo Metodología) --- */
+.fondo-imagen-servicios {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 80%; 
+    height: 100%;
+    
+    
+    background-image: url('../img/ingeniero.jpg'); 
+    background-color: #d6d8db; 
+    
+    background-size: cover;
+    background-position: center;
+    z-index: 1;
+}
+
+
+.fondo-imagen-servicios::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #f8f9fa 0%, #f8f9fa 15%, rgba(248, 249, 250, 0) 100%);
+}
+
+
+@media (max-width: 991px) {
+    .fondo-imagen-servicios {
+        width: 100%;
+        opacity: 0.25;
+    }
+    .fondo-imagen-servicios::before {
+        background: linear-gradient(to right, rgba(248, 249, 250, 0.9) 0%, rgba(248, 249, 250, 0.7) 100%);
+    }
+}
+
+/* --- ESTILOS PÁGINA DE CONTACTO --- */
+
+
+.borde-verde-custom {
+    border-color: #55a828 !important;
+}
+
+
+.enlace-contacto:hover {
+    color: #55a828 !important;
+    text-decoration: underline !important;
+}
+
+
+.custom-input:focus {
+    box-shadow: 0 0 0 0.25rem rgba(85, 168, 40, 0.25); 
+    background-color: #ffffff !important;
+    outline: none;
+}
+
+/* Botón de enviar */
+.btn-enviar {
+    background-color: #55a828;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn-enviar:hover {
+    background-color: #43871f; 
+    transform: translateY(-2px);
+    color: white;
+}
