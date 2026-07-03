@@ -49,10 +49,10 @@
             <div class="col-lg-6 mb-4 mb-lg-0 pe-lg-5">
                 <h3 class="fw-bold mb-3 text-verde">Historial de la empresa</h3>
                 <p class="text-muted lead">
-                    Somos una empresa constituida por un equipo de profesionales con más de 25 años de experiencia dedicados a entregar servicios de 
-                    consultoría en gestión de control de riesgos en empresas mineras y de servicios, con un enfoque multidisciplinario, 
-                    somos especialistas en las áreas de prevención de riesgos, sistemas de gestión, capacitación y formación de personal.
-                </p>
+                    Somos una empresa constituida por un equipo de profesionales con más de 25 años de experiencia dedicados a entregar
+                    servicios de consultoría en gestión de control de riesgos críticos en empresas mineras y de servicios, con un enfoque
+                    multidisciplinario. Somos especialistas en las áreas de prevención de riesgos, sistemas de gestión, 
+                    identificación y control de riesgos críticos, capacitación y acreditación.
                 
             </div>
             <div class="col-lg-6">
@@ -67,12 +67,12 @@
                 <div class="p-4 bg-white rounded shadow-sm h-100 tarjeta-quienes-somos">
                     <h4 class="fw-bold mb-3 text-verde">Misión</h4>
                     <p class="text-muted mb-0">
-                        Ser el socio estratégico de las organizaciones en Chile, entregando soluciones integrales en gestión de riesgos de 
-                        seguridad y salud ocupaiconal (SST), cumplimiento de la Ley 16.744, DS 594 y DS 44, y gestión de protocolos MINSAL. 
-                        A través de metodologías probadas, buscamos reducir incidentes, optimizar procesos y fomentar una cultura preventiva sostenible y diversa. <br>
-                        Nos destacamos en desarrollar estrategias preventiva a la medida de cada organización, brindando un servicio integral que se centra en el 
-                        diagnóstico, implementación, formación, supervisión y evaluación mediante indicadores de gestión.<br>
-                        Lo que nos permite entregar un servicio de alto impacto, orientado a mejorar los procesos y el desempeño en las organizaciones.
+                        Ser el socio estratégico entregando soluciones integrales en gestión de riesgos de seguridad y salud ocupacional (SST), 
+                        cumplimiento de la Ley 16.744, DS 594 y DS 44, y gestión de protocolos MINSAL. A través de metodologías probadas, 
+                        buscamos reducir incidentes, optimizar procesos y fomentar una cultura preventiva sostenible y diversa.<br>
+                        Nos destacamos en desarrollar estrategias preventiva a la medida de cada organización, brindando un servicio integral 
+                        que se centra en el diagnóstico, implementación, formación, supervisión y evaluación mediante indicadores de gestión.<br>
+                        Todo lo anterior nos permite entregar un servicio profesional, orientado a mejorar los procesos y el desempeño en las organizaciones.
                     </p>
                 </div>
             </div>
@@ -119,8 +119,9 @@
                         
                         <h5 class="fw-bold titulo-servicio mt-2">Seguridad Laboral</h5>
                         <p class="text-muted small mt-3 mb-4">
-                            Protegemos a tu equipo y aseguramos el cumplimiento legal de tu empresa frente a la Ley 16.744 y la nueva Ley Karin. 
-                            Diseñamos programas de gestión preventiva, reglamentos internos (RIOHS) y matrices de riesgo a tu medida.
+                            Protegemos a tu equipo y aseguramos el cumplimiento legal de tu empresa en conformidad con la 
+                            Ley 16.744 y DS N° 132 de Seguridad Minera. Diseñamos programas de gestión preventiva, reglamentos 
+                            internos (RIOHS) y matrices de riesgo a tu medida.
                         </p>
                         
                         <a href="servicios.php#seguridad-laboral"" class="link-ver-mas mt-auto">Ver más &rarr;</a>
