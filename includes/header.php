@@ -22,7 +22,7 @@
                 
                 <!-- Logo y Título de la Empresa -->
                 <a class="navbar-brand d-flex align-items-center" href="index.php">
-                    <img src="img/logo.png" alt="Logo Empresa" height="50">
+                    <img src="img/nuevologo.jpeg" alt="Logo Empresa" height="50">
                     <!-- Texto al lado del logo -->
                     <div class="ms-2 brand-text">
                         <span class="brand-title">Kubera</span><br>

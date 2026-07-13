@@ -7,7 +7,7 @@
                 <!-- Columna Izquierda: Logo y Título -->
                 <div class="col-lg-4 mb-4 mb-lg-0">
                     <div class="d-flex align-items-center mb-3">
-                        <img src="img/tu-logo-blanco.png" alt="" height="45" class="me-2">
+                        <img src="img/nuevologo.jpeg" alt="" height="45" class="me-2">
                         <div class="brand-text-footer">
                             <span class="brand-title-footer">KUBERA</span><br>
                             <span class="brand-subtitle-footer">consultores</span>
