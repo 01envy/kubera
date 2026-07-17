@@ -40,8 +40,8 @@
                         </div>
                     </div>
                     <div>
-                        <h6 class="fw-bold mb-1 text-dark">Teléfono / WhatsApp</h6>
-                        <a href="tel:+56912345678" class="text-muted text-decoration-none small enlace-contacto">+56 9 1234 5678</a>
+                        <h6 class="fw-bold mb-1 text-dark">Teléfono</h6>
+                        <a href="tel:+56 912345678" class="text-muted text-decoration-none small enlace-contacto">+56 9 4029 2437</a>
                     </div>
                 </div>
 
@@ -65,7 +65,7 @@
                     <h3 class="fw-bold mb-4" style="color: #245076; font-family: 'Montserrat', sans-serif;">Envíanos un mensaje</h3>
                     
                     
-                    <form action="mailto:contacto@kuberaconsultores.cl" method="post" enctype="text/plain">
+                    <form action="mailto:mvelizduarte@kuberaconsultores.cl" method="post" enctype="text/plain">
                         <div class="row g-4">        
                             <div class="col-md-6">
                                 <label for="nombre" class="form-label small fw-bold text-muted mb-1">Nombre completo</label>

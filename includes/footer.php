@@ -38,10 +38,10 @@
                     <!-- Quitamos text-muted y usamos footer-texto -->
                     <ul class="list-unstyled footer-texto small">
                         <li class="mb-2">
-                            <strong class="text-white">Teléfono:</strong> +56 9 1234 5678
+                            <strong class="text-white">Teléfono:</strong> +56 9 4029 2437
                         </li>
                         <li class="mb-2">
-                            <strong class="text-white">Correo:</strong> contacto@kuberaconsultores.cl
+                            <strong class="text-white">Correo:</strong> mvelizduarte@kuberaconsultores.cl
                         </li>
                         <li class="mb-0">
                             <strong class="text-white">LinkedIn:</strong> <a href="#" class="footer-link d-inline">Kubera Consultores</a>
